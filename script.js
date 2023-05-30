@@ -1,0 +1,1 @@
+alert("Quer aprender Português com um método fácil e prático? Então, seja bem-vindo!")
