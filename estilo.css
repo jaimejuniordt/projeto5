@@ -1,25 +1,28 @@
 body {
   background: rgb(141, 27, 27);
   font: normal 15pt Arial;
-
 }
 
 header {
   color: white; /* título branco */
   text-align: center; /* centraliza o título */
-
 }
-
-section {
+.container {
+  display: flex; /* coloca um ao lado do outro */
+  justify-content: space-evenly; /* centraliza*/
+  align-items: center;
+  /* gap: 200px;  espaçamento entre os elementos */
+}
+.nomegram {
   background: white;
-  border-radius: 10px; /* torna a borda arredondada */  
-  padding: 15px ; /* espaço da palavra com a margem esquerda */
-  width: 500px; /* largura fixa */
-  margin: auto; /* centraliza no meio da tela */
-  box-shadow: /*sombreamento */ 5px /*deslocamento lateral */ 5px/*deslocamento vertical */ 10px /*espalhamento */ black;
+  border-radius: 10px; /* torna a borda arredondada */
+  padding: 15px; /* espaço da palavra com a margem esquerda */
+  width: auto; /* largura fixa */
+  box-shadow: /*sombreamento */ 5px /*deslocamento lateral */ 5px
+    /*deslocamento vertical */ 10px /*espalhamento */ black;
   height: 300px; /* altura */
 }
- 
+
 div {
   text-align: center;
   padding: 2px;
@@ -33,11 +36,9 @@ div {
   height: 100px;
   text-align: left;
 }
-  
 
 footer {
   color: white;
   text-align: center; /* centraliza o parágrafo */
   font-style: italic; /* por a fonte em itálico */
-
 }
