@@ -18,7 +18,8 @@ section {
   margin: auto; /* centraliza no meio da tela */
   box-shadow: /*sombreamento */ 5px /*deslocamento lateral */ 5px/*deslocamento vertical */ 10px /*espalhamento */ black;
   height: 300px; /* altura */
-} 
+}
+ 
 div {
   text-align: center;
   padding: 2px;
@@ -26,6 +27,11 @@ div {
 
 .foto {
   height: 200px;
+}
+
+.gram {
+  height: 100px;
+  text-align: left;
 }
   
 
