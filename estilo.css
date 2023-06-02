@@ -37,6 +37,11 @@ div {
   text-align: left;
 }
 
+.red {
+  height: 90px;
+
+}
+
 footer {
   color: white;
   text-align: center; /* centraliza o parágrafo */
